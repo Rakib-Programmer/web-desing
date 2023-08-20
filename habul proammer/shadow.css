@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow:5px 5px 4px yellow  ; /* text shadow: x y blur color  / x=left , right / y=top bottom/  left blue=(-) Right blue(+) / top blue (-) / bottom vlue (+)*/
+
+}
+.box{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+    box-shadow: 5px 5px 5px rgba(166, 221, 56, 0.5),  -5px -5px 5px rgba(166, 221, 56, 0.5);
+}
+.box img{
+    width: 100%;
+}
+h3{
+    margin: 0;
+}

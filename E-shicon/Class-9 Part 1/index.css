@@ -1,0 +1,141 @@
+body{
+    font-family: fantasy;
+    color: darkblue;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.index{
+   
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+.full-width{
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+}
+.header{
+    padding: 50px;
+    background-color: azure;
+}
+.header h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: inherit;
+    float: left;
+}
+.search{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.header input[type="search"], .header input[type="submit"]{
+    background-color: aliceblue;
+    height: 25px;
+    width: 200px
+}
+.header input[type="submit"]{
+    width: 100px;
+    background-color: burlywood;
+}
+.header ul{
+    margin: 20px;
+    padding: 0;
+}
+.header ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header ul li a{
+    background-color: lemonchiffon;
+    padding: 10px 20px;
+    float: left;
+    font-size: 20px;
+}
+.man-content{
+    width: 650px;
+    margin-right: 20px;
+    padding: 15px;
+    float: left;
+    text-align: justify;
+}
+.right-sidebar{
+    width: 600px;
+    padding: 10px 5px;
+    float: right;
+    text-align: justify;
+}
+.content{
+    background-color: bisque;
+    float: left;
+    margin: 15px;
+    width: 400px;
+    box-sizing: border-box;
+}
+.content p{
+    text-align: justify;
+}
+.content img{
+    height: 200px;
+    width: 400px
+}
+.content h2{
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    color: darkslateblue;
+    text-align: center;
+}
+.footer{
+    background-color: antiquewhite;
+}
+.copy{
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* @media screen and (min-width:768px) => Tablet;
+ @media screen and (min-width:1024px) => Desktosp*/
+
+
+
+@media screen and (max-width: 800px){
+    .header{
+        background-color: antiquewhite;
+        width: 400px;
+    }
+    .header ul li{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .other{
+        width: 400px
+    }
+    .content{
+        width: 100%;
+        margin: 50px;
+        border: 5px solid blue;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

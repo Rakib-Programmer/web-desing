@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toastst</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <button class="btn btn-primary" id="liveToastBtn"> Live Toast</button>
+    <div class="position-fixed bottom-0 end-0 p-2" style="z-index:11;">
+        <div class="toast" id="liveToast">
+            <div class="toast-header">
+                <img src="" alt="" class="me-2">
+                <strong class="me-auto">New Message</strong>
+                <small>Just Now</small>
+                <button class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, magni!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+    </script>
+</body>
+</html>

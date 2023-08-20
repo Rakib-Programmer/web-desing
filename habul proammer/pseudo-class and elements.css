@@ -1,0 +1,15 @@
+a:hover{
+    color: red;
+    background-color: black;
+}
+ /*h2:nth-child(4){
+    color: red;
+}*/
+h2:first-child{
+    color: red;
+}
+p::first-letter{
+    color: green;
+    font-size: 50px;
+}
+

@@ -1,0 +1,12 @@
+.column{
+    text-align: justify;
+    
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 10px solid gray;
+    
+        
+    -webkit-column-count: 3;
+    -webkit-column-gap: 30px;
+    -webkit-column-rule: 10px solid gray;
+}

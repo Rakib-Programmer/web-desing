@@ -1,0 +1,10 @@
+.position{
+    position: fixed;
+    background-color: aquamarine;
+    font-family: cursive;
+}
+p{
+    width: 20%;
+    margin-top: 50px;
+    float: left;
+}

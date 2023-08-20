@@ -1,0 +1,37 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(43, 40, 40);
+    width: 100%;
+    color: white;
+}
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.text p{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+.icon{
+    font-size: 40px;
+    position: relative;
+    padding: 3px 50px;
+
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    line-height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }

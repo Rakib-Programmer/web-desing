@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left:20px;
+    padding: 10px;
+}
+.navbar{
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+
+}
+.navbar ul{
+    list-style: none;
+    
+}
+.navbar ul li{
+    background-color: grey;
+    height: 50px;
+    width: 170px;
+    border: 1px solid white;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}

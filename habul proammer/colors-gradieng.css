@@ -1,0 +1,24 @@
+h1{
+    color: yellow;
+}
+h2{
+    color: ;
+}
+.box{
+    height: 400px;
+    width: 400px;
+   background:linear-gradient(to left top, red 30%, green) ;
+   
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    background: linear-gradient(70deg,red,yellow);
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    background: radial-gradient( red, yellow);
+}

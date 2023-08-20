@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\web desing all"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web desing"
+	}
+}

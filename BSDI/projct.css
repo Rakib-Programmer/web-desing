@@ -1,0 +1,80 @@
+.marquee{
+    background-color: aqua;
+    font-size: 25PX;
+}
+.header{
+   background-image: url(img-2.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+}
+
+
+.navbar{
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul{
+    list-style: none; 
+    padding-left: 450px;
+}
+.navbar ul li{
+    
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    display: list-item;
+    text-align: right;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 67px;
+    
+   
+}
+.navbar ul li a:hover{
+    color: cyan;
+}
+
+
+.header h2{
+    padding-top: 150px;
+    padding-left: 120px;
+    font-size: 32px;
+}
+.header p{
+    padding-left: 120px;
+    font-size: 20px; 
+}
+a{
+    margin-left:200px;
+}
+.click-now{
+    height: 40px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+    color: black;
+    background-color: aqua;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10%;
+
+}
+.click-now:hover{
+    background-color: rgb(213, 37, 37);
+    color: white;
+}
+/* tablet*/
+@media (max-width:800px){
+    navbar ul li a{
+        margin-left: 32px;
+    }
+}

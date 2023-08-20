@@ -1,0 +1,11 @@
+.rotate{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    
+    margin: 200px;
+    
+    transform: rotate(60deg);
+    -webkit-stransform: rotate(60deg)
+}

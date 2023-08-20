@@ -1,0 +1,27 @@
+<!DOCTTPE html>
+<html>
+    <head>
+        <title> class-id </title>
+        <link rel="stylesheet" type="text/css" href="class-id.css">
+    </head>
+    <body>
+        <div class="class">
+            this is class
+        </div>
+        <div id="id">
+            this is id
+        </div>
+        <div class="class" id="id">                       <!-- id জদি আগে থাকে তা হলে id কাজ করবে class কাজ করবে না -->
+            this is priority checking of class and id
+        </div>
+        <div class="class Other-class">
+            this is mutipol class.         <!-- দুই বা তার অধিক class এক সাথে থাকে তখন লাশটের clas এর ডিজাইন কাজ করবে-->
+        </div>
+        <div id="id Other-id">
+            this is mutipol id.       <!--  দুইটা id এক সাথে কাজ করে না-->
+        </div>
+        <div class="class Other-class" id="id">
+            this is with sever class.           <!-- id এর পর জদি অনেক গুলো class থাকে তবে id আর লাশটের class কাজ করে-->
+        </div>
+    </body>
+</html>
